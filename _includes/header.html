@@ -1,0 +1,45 @@
+<section class="hero is-primary is-fullheight-with-navbar">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered is-variable is-8">
+        <div class="column is-one-quarter">
+          <image class='image' src="{{ site.baseurl }}/assets/img/cover.jpg" style="border-radius: 1em;" />
+        </div>
+        <div class="column is-half">
+          <h1 class="title">
+            Adrià Labay Mora
+          </h1>
+          <h2 class="subtitle">
+            Curriculum Vitae
+          </h2>
+
+          <h3 class="is-size-5">
+            <strong>Contact</strong>
+          </h3>
+          <ul>
+            <li>Email: {{ site.email }}
+          </ul>
+
+          <h3 class="is-size-5">
+            <strong>Summary</strong>
+          </h3>
+          <p>
+            {% capture my_include %}{% include summary.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom
+  <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        Follow me on ...
+      </div>
+    </nav>
+  </div>
+  -->
+</section>

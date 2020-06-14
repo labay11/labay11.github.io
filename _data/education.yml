@@ -1,0 +1,19 @@
+- place_long: 'Universitat Autonoma de Barcelona'
+  place_short: 'UAB'
+  name: Degree in Physics
+  url: 'http://www.uab.cat'
+  start_date: 2015/09
+  end_date: 2020/06
+- place_long: Nanyang Technological University
+  place_short: NTU
+  name: Exchange
+  url: 'https://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Overview.aspx'
+  start_date: 2018/08
+  end_date: 2018/12
+  description: Exchange program as part of the Degree in Physics in UAB.
+- place_long: Delft Technological University
+  place_short: TU Delft
+  name: Master in Applied Physics
+  description: Track in Quantum Computing and Quantum Information
+  url: 'https://www.tudelft.nl/en/education/programmes/masters/applied-physics/msc-applied-physics/'
+  start_date: 2020/09

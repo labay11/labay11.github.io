@@ -1,0 +1,44 @@
+<section class="section" id="repos">
+
+  <h1 class="title">Repositories</h1>
+
+  {% assign repos = ((site.github.public_repositories | where: "fork", "false") | sort: "stargazers_count") | reverse %}
+
+  {% for repo in repos limit:5 %}
+    {% capture github_content %}
+      {% if repo.description %} {{repo.description | markdownify }}{% endif %}
+      <buttons>
+        <a class="button is-link is-inverted">
+          <span class="fa fa-eye" />
+          {{ repo.watchers_count }}
+        </a>
+        <a class="button is-link is-inverted">
+          <span class="fa fa-star" />
+          {{ repo.stargazers_count }}
+        </a>
+        <a class="button is-link is-inverted">
+          <span class="fa fa-code-fork" />
+          {{ repo.forks_count }}
+        </a>
+      </buttons>
+    {% endcapture %}
+
+    {% capture github_subtitle %}
+      {% for tag in repo.topics %}
+        <span class="tag">
+          {{ tag }}
+        </span>
+      {% endfor %}
+    {% endcapture %}
+
+    {% include media.html title=repo.name
+                          subtitle=github_subtitle
+                          description=repo.description
+                          start_date=repo.created_at
+                          end_date=repo.updated_at
+                          content=github_content
+                          moreurl=repo.html_url
+    %}
+  {% endfor %}
+
+</section>

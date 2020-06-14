@@ -1,0 +1,17 @@
+<section class="section" id="education">
+
+  <h1 class="title">Education</h1>
+
+  {% assign places = (site.data.education | sort: "start_date") | reverse %}
+
+  {% for place in places %}
+    {% include media.html title=place.name
+                          subtitle=place.place_long
+                          start_date=place.start_date
+                          end_date=place.end_date
+                          content=place.description
+                          moreurl=place.url
+    %}
+  {% endfor %}
+
+</section>

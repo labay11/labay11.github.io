@@ -1,0 +1,21 @@
+<article class="media">
+  <div class="media-left has-text-centered date-column">
+    {% if include.end_date %}<time datetime="{{ include.end_date }}">{{ include.end_date | date: "%B %Y" }}</time>{% else %}present{% endif %}
+    <p class="is-size-3 has-text-info">&uarr;</p>
+    <time datetime="{{ job.start_date }}">{{ include.start_date | date: "%B %Y" }}</time>
+  </div>
+  <div class="media-content">
+    <div class="content">
+      <h4 class="title is-4">{{ include.title }}</h4>
+      {% if include.subtitle %}<h6 class="subtitle is-6">{{ include.subtitle }}</h6>{% endif %}
+      {% if include.content %} {{ include.content }}{% endif %}
+    </div>
+  </div>
+  {% if include.moreurl %}
+    <div class="media-right">
+      <a href="{{ include.moreurl }}" aria-label="visit site" class="icon" target="_blank">
+        <span class="fa fa-info" />
+      </a>
+    </div>
+  {% endif %}
+</article>

@@ -1,0 +1,26 @@
+---
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+
+    {% include header.html %}
+
+    <div class="container">
+
+      {% for section in site.data.sections %}
+      {% include {{ section.file }} %}
+      {% endfor %}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

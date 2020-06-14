@@ -1,0 +1,9 @@
+_site/
+.sass-cache/
+node_modules/
+
+.jekyll-cache/
+
+Gemfile.lock
+package-lock.json
+yarn.lock
