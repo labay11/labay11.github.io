@@ -17,7 +17,7 @@
         {% if item.name %}
           <a class="navbar-item {% if item.part == page.url %}is-active{% endif %}"
             href="{{ item.part | prepend: site.baseurl }}">
-            {{ item.name }} {{ site.baseurl }}
+            {{ item.name }}
           </a>
         {% endif %}
       {% endfor %}
