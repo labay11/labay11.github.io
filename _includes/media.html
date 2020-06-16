@@ -1,7 +1,11 @@
 <article class="media">
   <div class="media-left has-text-centered date-column">
     {% if include.end_date %}<time datetime="{{ include.end_date }}">{{ include.end_date | date: "%B %Y" }}</time>{% else %}present{% endif %}
-    <p class="is-size-3 has-text-info">&uarr;</p>
+    <br>
+    <span class="icon has-text-info is-large">
+      <i class="fa fa-long-arrow-up"></i>
+    </span>
+    <br>
     <time datetime="{{ job.start_date }}">{{ include.start_date | date: "%B %Y" }}</time>
   </div>
   <div class="media-content">

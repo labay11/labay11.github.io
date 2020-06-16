@@ -3,15 +3,15 @@ title: Adrià Labay Mora
 email: adria.labay@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Curriculum Vitae and some thoughts
-baseurl: "/home/" # the subpath of your site, e.g. /blog/
+# baseurl: "/" # the subpath of your site, e.g. /blog/
 # url: "http://jekyll.github.io" # the base hostname & protocol for your site
 github_username:  labay11
 
 livereload: true
 
 # Build settings
-markdown: kramdown
-mathjax: true
+# markdown: kramdown
+# mathjax: true
 
 plugins:
   - "jekyll-github-metadata"
