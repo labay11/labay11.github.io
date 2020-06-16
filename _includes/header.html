@@ -4,7 +4,7 @@
     <div class="container">
       <div class="columns is-centered is-variable is-8">
         <div class="column is-one-quarter">
-          <image class='image' src="{{ site.baseurl }}/assets/img/cover.jpg" style="border-radius: 1em;" />
+          <image class='image' src="{{ site.url }}/assets/img/cover.jpg" style="border-radius: 1em;" />
         </div>
         <div class="column is-half">
           <h1 class="title">
@@ -27,6 +27,8 @@
           <p>
             {% capture my_include %}{% include summary.md %}{% endcapture %}
             {{ my_include | markdownify }}
+            url: {{ site.url }}
+            baseurl: {{ site.baseurl }}
           </p>
         </div>
       </div>
