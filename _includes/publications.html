@@ -1,0 +1,20 @@
+<section class="section" id="publications">
+
+  <h1 class="title">Publications</h1>
+
+  {% assign pubs = (site.data.publications | sort: "date") | reverse %}
+
+  {% for pub in pubs %}
+    {% capture file_url %}
+      {{ pub.file | prepend: "/assets/files/" | absolute_url }}
+    {% endcapture %}
+    {% include media.html title=pub.title
+                          subtitle=pub.authors
+			  start_date=pub.date
+                          end_date=pub.date
+                          content=pub.abstract
+                          moreurl=file_url
+    %}
+  {% endfor %}
+
+</section>

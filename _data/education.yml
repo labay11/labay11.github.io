@@ -4,6 +4,7 @@
   url: 'http://www.uab.cat'
   start_date: 2015/09
   end_date: 2020/06
+  description: Thesis on Quantum Change Point Detection in Noisy Channels.
 - place_long: Nanyang Technological University
   place_short: NTU
   name: Exchange

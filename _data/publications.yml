@@ -1,0 +1,16 @@
+- title: A relational view of Quantum Mechanics
+  authors: 'Labay, Adrià'
+  file: 'rqm_AdriaLabay.pdf'
+  url: ''
+  date: 2020-07-05
+  abstract: 'The Copenhaguen interpretation provides a mathematical framework that has proved useful toevaluate the probabilities for future events in terms of our previous knowledge on a system. However,it is a source of controversy since any physical intuition we want to give  on  the  processes yieldsparadoxes like instantaneous collapse, spooky action at a distance... The goal of the relationalinterpretation is to solve some of them without changing the actual formalism, purely by focusingour attention to what is really the intrinsic property of Quantum Mechanics: discreteness.'
+- title: Quantum Change Point Detection in Noisy Channels
+  authors: 'Labay, Adrià'
+  file: 'TFG_AdriaLabay.pdf'
+  url: ''
+  date: 2019-06-15
+  abstract: 'The identification of abrupt changes in the behaviour of a system is of crucial importance in areas such as medicine, climatology, biology... Here we will discuss the problem in the quantum
+world, we will consider a source generating a certain state which suffers an alteration and suddenly changes to another. The question is to find the position of the change based on measures carried
+out on the states with the greatest possible probability of success. Recently, the solution to the problem was found when the two states, before and after the change, were pure. In this thesis,
+we will study the case in which the states are mixed and therefore the uncertainty in the system increases. We will use both analytical and numerical techniques to find the optimal measure that
+maximises the probability of correctly identifying the point of change.'
