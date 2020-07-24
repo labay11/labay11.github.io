@@ -1,6 +1,6 @@
 <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="{{site.baseurl}}">
+    <a class="navbar-item" href="{{ '' | absolute_url }}">
       ADRIÀ LABAY MORA
     </a>
 
@@ -16,7 +16,7 @@
       {% for item in site.data.sections %}
         {% if item.name %}
           <a class="navbar-item {% if item.part == page.url %}is-active{% endif %}"
-            href="{{ item.part | prepend: site.baseurl }}">
+            href="{{ item.part | absolute_url }}">
             {{ item.name }}
           </a>
         {% endif %}

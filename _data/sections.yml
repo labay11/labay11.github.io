@@ -4,9 +4,12 @@
 - name: Jobs
   part: '#jobs'
   file: 'jobs.html'
-- name: Publications
+- name: Scientific Work
   part: '#publications'
   file: 'publications.html'
 - name: Repositories
   part: '#repos'
   file: 'repos.html'
+- name: Posts
+  part: '#posts'
+  file: 'posts.html'
