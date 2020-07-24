@@ -5,11 +5,14 @@
   {% assign places = (site.data.education | sort: "start_date") | reverse %}
 
   {% for place in places %}
+    {% capture desc %}
+      {{ place.description | markdownify }}
+    {% endcapture %}
     {% include media.html title=place.name
                           subtitle=place.place_long
                           start_date=place.start_date
                           end_date=place.end_date
-                          content=place.description
+                          content=desc
                           moreurl=place.url
     %}
   {% endfor %}

@@ -8,15 +8,15 @@
     {% capture github_content %}
       {% if repo.description %} {{repo.description | markdownify }}{% endif %}
       <buttons>
-        <a class="button is-link is-inverted">
+        <a class="button is-info is-inverted">
           <span class="fa fa-eye" />
           {{ repo.watchers_count }}
         </a>
-        <a class="button is-link is-inverted">
+        <a class="button is-info is-inverted">
           <span class="fa fa-star" />
           {{ repo.stargazers_count }}
         </a>
-        <a class="button is-link is-inverted">
+        <a class="button is-info is-inverted">
           <span class="fa fa-code-fork" />
           {{ repo.forks_count }}
         </a>

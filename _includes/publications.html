@@ -8,11 +8,20 @@
     {% capture file_url %}
       {{ pub.file | prepend: "/assets/files/" | absolute_url }}
     {% endcapture %}
+    {% capture description %}
+      {{ pub.abstract }}
+      <br/>
+      {% if pub.doi %}
+        <a href="{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+      {% else %}
+        <i>*Unpublished</i>
+      {% endif %}
+    {% endcapture %}
     {% include media.html title=pub.title
                           subtitle=pub.authors
-			  start_date=pub.date
+			                    date=pub.date
                           end_date=pub.date
-                          content=pub.abstract
+                          content=description
                           moreurl=file_url
     %}
   {% endfor %}
