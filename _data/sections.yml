@@ -7,6 +7,9 @@
 - name: Scientific Work
   part: '#publications'
   file: 'publications.html'
+- name: Awards
+  part: '#awards'
+  file: 'awards.html'
 - name: Repositories
   part: '#repos'
   file: 'repos.html'

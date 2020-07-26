@@ -12,6 +12,8 @@ The full text can be found in English [online](http://data.perseus.org/texts/urn
 <br/>
 <object data="/assets/files/genealogia_griega.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/files/genealogia_griega.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/genealogia_griega.pdf">Download PDF</a>.</p>
+        <p>
+          This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/genealogia_griega.pdf">Download PDF</a>.
+        </p>
     </embed>
 </object>

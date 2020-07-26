@@ -5,8 +5,8 @@
   {% assign jobs = (site.data.jobs | sort: "start_date") | reverse %}
 
   {% for job in jobs %}
-    {% include media.html title=job.position
-                          subtitle=job.company
+    {% include media.html title=job.company
+                          subtitle=job.position
                           start_date=job.start_date
                           end_date=job.end_date
                           content=job.description

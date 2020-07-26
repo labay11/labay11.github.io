@@ -1,6 +1,6 @@
 <section class="section" id="publications">
 
-  <h1 class="title">Publications</h1>
+  <h1 class="title">Scientific Work</h1>
 
   {% assign pubs = (site.data.publications | sort: "date") | reverse %}
 
@@ -9,8 +9,7 @@
       {{ pub.file | prepend: "/assets/files/" | absolute_url }}
     {% endcapture %}
     {% capture description %}
-      {{ pub.abstract }}
-      <br/>
+      {{ pub.abstract | markdownify }}
       {% if pub.doi %}
         <a href="{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
       {% else %}
