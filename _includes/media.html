@@ -1,4 +1,4 @@
-<article class="media">
+<article class="media" id="{{ include.title | url_encode }}">
   <div class="media-left has-text-centered date-column">
     {% if include.date %}
       <time datetime="{{ include.date }}">{{ include.date | date: "%d %B %Y" }}</time>
@@ -18,7 +18,7 @@
   </div>
   <div class="media-content">
     <div class="content">
-      <h4 class="title is-4 has-text-info" id="{{ include.title | url_encode }}">
+      <h4 class="title is-4 has-text-info">
         {% if include.moreurl %}
         <a class="has-text-info" href="{{ include.moreurl }}" target="_blank">{{ include.title }}</a>
         {% else %}

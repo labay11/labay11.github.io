@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## CV and thoughts
 
-You can use the [editor on GitHub](https://github.com/labay11/Curriculum-Web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website is thought to be a summary of my academic life and some of my interest and writtings that I'd like to share with the rest. Take a look at https://labay11.github.io/.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Development
 
-### Markdown
+Requirements: `jekyll`, `bundle`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Run with `bundle exec jekyll s`, the website should be available at http://localhost:4000/.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/labay11/Curriculum-Web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[`bulma`](https://bulma.io/) version `0.9.0` is used for the UI.
