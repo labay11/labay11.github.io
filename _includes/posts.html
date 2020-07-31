@@ -4,6 +4,9 @@
 
   {% for post in site.posts %}
     {% capture tags %}
+      <span class="tag is-info">
+        Language: {{ post.lang }}
+      </span>
       {% for tag in post.tags %}
         <span class="tag">
           {{ tag }}

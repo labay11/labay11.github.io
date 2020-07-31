@@ -8,26 +8,15 @@
         </div>
         <div class="column is-half">
           <h1 class="title">
-            Adrià Labay Mora
+            {{ site.title }}
           </h1>
           <h2 class="subtitle">
-            CV and thoughts
+            {{ site.description }}
           </h2>
 
-          <h3 class="is-size-5">
-            <strong>Contact</strong>
-          </h3>
-          <ul>
-            <li>Email: <a href="{{ site.email | prepend: 'mailto://' }}">{{ site.email }}</a>
-          </ul>
-          <br />
-          <h3 class="is-size-5">
-            <strong>Summary</strong>
-          </h3>
-          <p>
-            {% capture my_include %}{% include summary.md %}{% endcapture %}
-            {{ my_include | markdownify }}
-          </p>
+          <div class="content" style="text-align: justify; text-justify: inter-word;">
+            {{ site.summary | markdownify }}
+          </div>
         </div>
         <div class="column is-half-desktop has-text-centered">
           {% include quote.html author='A. Peres'

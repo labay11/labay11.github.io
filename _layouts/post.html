@@ -9,5 +9,7 @@ layout: default
     {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
   </h2>
 
-  {{ content }}
+  <div class="content">
+    {{ content }}
+  </div>
 </section>

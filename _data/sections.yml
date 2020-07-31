@@ -10,9 +10,9 @@
 - name: Awards
   part: '#awards'
   file: 'awards.html'
-- name: Repositories
-  part: '#repos'
-  file: 'repos.html'
 - name: Posts
   part: '#posts'
   file: 'posts.html'
+- name: Repositories
+  part: '#repos'
+  file: 'repos.html'
