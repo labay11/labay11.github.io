@@ -16,7 +16,7 @@
     <div class="navbar-start">
       {% for item in site.data.sections %}
         {% if item.name %}
-          <a class="navbar-item {% if item.part == page.url %}is-active{% endif %}"
+          <a class="navbar-item"
             href="{{ item.part | absolute_url }}">
             {{ item.name }}
           </a>
