@@ -19,5 +19,12 @@ livereload: true
 # markdown: kramdown
 # mathjax: true
 
+markdown: kramdown
+highlighter: rouge
+highlight: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 plugins:
   - "jekyll-github-metadata"
