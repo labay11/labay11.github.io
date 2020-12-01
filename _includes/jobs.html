@@ -1,0 +1,17 @@
+<section class="section" id="jobs">
+
+  <h1 class="title">Jobs</h1>
+
+  {% assign jobs = (site.data.jobs | sort: "start_date") | reverse %}
+
+  {% for job in jobs %}
+    {% include media.html title=job.company
+                          subtitle=job.position
+                          start_date=job.start_date
+                          end_date=job.end_date
+                          content=job.description
+                          moreurl=job.url
+    %}
+  {% endfor %}
+
+</section>

@@ -1,0 +1,48 @@
+<section class="hero is-primary is-fullheight-with-navbar">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered is-variable is-8 is-multiline">
+        <div class="column is-one-third-desktop is-half-tablet">
+          <image class='image' src="{{ '/assets/img/cover.jpg' | absolute_url }}" style="border-radius: 1em;" />
+        </div>
+        <div class="column is-half">
+          <h1 class="title">
+            {{ site.title }}
+          </h1>
+          <h2 class="subtitle">
+            {{ site.description }}
+          </h2>
+
+          <div class="content" style="text-align: justify; text-justify: inter-word;">
+            {{ site.summary | markdownify }}
+          </div>
+        </div>
+        <div class="column is-half-desktop has-text-centered">
+          {% include quote.html author='A. Peres'
+                                title='Einstein, Podolsky, Rosen, and Shannon'
+                                url='https://doi.org/10.1007/s10701-004-1986-6'
+                                text='The question raised by EPR “Can quantum-mechanical description of physical reality be considered complete?” has a positive answer. However, reality may be different for different observers.'
+          %}
+        </div>
+        <div class="column is-half-desktop has-text-centered">
+          {% include quote.html author='C. A. Fuchs and A. Peres'
+                                title='Quantum Theory Needs No "Interpretation"'
+                                url='https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.77.8442&rep=rep1&type=pdf'
+                                text='Attributing reality to quantum states leads to a host of "quantum paradoxes." These are due solely to an incorrect interpretation of quantum theory.'
+          %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom
+  <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        Follow me on ...
+      </div>
+    </nav>
+  </div>
+  -->
+</section>

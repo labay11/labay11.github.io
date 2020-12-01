@@ -1,0 +1,28 @@
+<section class="section" id="publications">
+
+  <h1 class="title">Scientific Work</h1>
+
+  {% assign pubs = (site.data.publications | sort: "date") | reverse %}
+
+  {% for pub in pubs %}
+    {% capture file_url %}
+      {{ pub.file | prepend: "/assets/files/" | absolute_url }}
+    {% endcapture %}
+    {% capture description %}
+      {{ pub.abstract | markdownify }}
+      {% if pub.doi %}
+        <a href="{{ pub.doi }}" target="_blank">{{ pub.doi }}</a>
+      {% else %}
+        <i>*Unpublished</i>
+      {% endif %}
+    {% endcapture %}
+    {% include media.html title=pub.title
+                          subtitle=pub.authors
+			                    date=pub.date
+                          end_date=pub.date
+                          content=description
+                          moreurl=file_url
+    %}
+  {% endfor %}
+
+</section>

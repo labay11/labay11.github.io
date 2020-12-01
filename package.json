@@ -1,0 +1,13 @@
+{
+  "name": "home",
+  "version": "0.1.0",
+  "description": "\"Web site of Adria Labay Mora\"",
+  "main": "index.html",
+  "repository": "git@github.com:labay11/home.git",
+  "author": "Adria Labay <adria.labay@gmail.com>",
+  "license": "Apache License",
+  "private": "false",
+  "dependencies": {
+    "bulma": "^0.9"
+  }
+}

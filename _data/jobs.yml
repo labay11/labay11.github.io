@@ -1,0 +1,6 @@
+- company: 'Zesje'
+  position: 'Python and Javascript Developer'
+  url: 'https://zesje.tudelft.nl/'
+  start_date: 2020/12
+  end_date:
+  description: 'Part-time job developing the Zesje web grading system, working with python in the backend and javacript in the frontend.'

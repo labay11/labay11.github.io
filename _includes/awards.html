@@ -1,0 +1,19 @@
+<section class="section" id="awards">
+
+  <h1 class="title">Awards</h1>
+
+  {% assign awards = (site.data.awards | sort: "date") | reverse %}
+
+  {% for award in awards %}
+    {% capture desc %}
+      {{ award.description | markdownify }}
+    {% endcapture %}
+    {% include media.html title=award.title
+                          subtitle=award.issuer
+                          date=award.date
+                          content=desc
+                          moreurl=award.url
+    %}
+  {% endfor %}
+
+</section>

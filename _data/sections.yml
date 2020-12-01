@@ -1,0 +1,18 @@
+- name: Education
+  part: '#education'
+  file: 'education.html'
+- name: Jobs
+  part: '#jobs'
+  file: 'jobs.html'
+- name: Scientific Work
+  part: '#publications'
+  file: 'publications.html'
+- name: Awards
+  part: '#awards'
+  file: 'awards.html'
+- name: Posts
+  part: '#posts'
+  file: 'posts.html'
+- name: Repositories
+  part: '#repos'
+  file: 'repos.html'

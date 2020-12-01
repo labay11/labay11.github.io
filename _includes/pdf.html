@@ -1,0 +1,19 @@
+<!-- <object data="/assets/files/fucking_resum_meca.pdf" type="application/pdf" width="100%" height="700px">
+    <embed src="/assets/files/genealogia_griega.pdf">
+        <p>
+          This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/fucking_resum_meca.pdf">Download PDF</a>.
+        </p>
+    </embed>
+</object> -->
+
+<!-- <iframe src="/assets/files/{{ include.filename }}.pdf" width="100%" height="700px">
+
+  This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/{{ include.filename }}.pdf">Download PDF</a>.
+
+</iframe> -->
+
+<div class="pdf-container">
+  <object class="pdf-frame" data="/assets/files/{{ include.filename }}.pdf" type="application/pdf">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/{{ include.filename }}.pdf">Download PDF</a>.
+  </object>
+</div>

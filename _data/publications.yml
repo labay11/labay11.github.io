@@ -1,0 +1,26 @@
+- title: A relational view of Quantum Mechanics
+  authors: 'Labay, Adrià'
+  file: 'rqm_AdriaLabay.pdf'
+  doi:
+  date: 2020-07-05
+  abstract: 'The Copenhaguen interpretation provides a mathematical framework that has proved useful toevaluate the probabilities for future events in terms of our previous knowledge on a system. However,it is a source of controversy since any physical intuition we want to give  on  the  processes yields paradoxes like instantaneous collapse, spooky action at a distance... The goal of the relational interpretation is to solve some of them without changing the actual formalism, purely by focusing our attention to what is really the intrinsic property of Quantum Mechanics: discreteness.'
+- title: Quantum Change Point Detection in Noisy Channels
+  authors: 'Labay, Adrià'
+  file: 'TFG_AdriaLabay.pdf'
+  date: 2019-06-15
+  doi:
+  abstract: 'The identification of abrupt changes in the behaviour of a system is of crucial importance in areas such as medicine, climatology, biology... Here we will discuss the problem in the quantum
+world, we will consider a source generating a certain state which suffers an alteration and suddenly changes to another. The question is to find the position of the change based on measures carried
+out on the states with the greatest possible probability of success. Recently, the solution to the problem was found when the two states, before and after the change, were pure. In this thesis,
+we will study the case in which the states are mixed and therefore the uncertainty in the system increases. We will use both analytical and numerical techniques to find the optimal measure that
+maximises the probability of correctly identifying the point of change.'
+- title: Measuring Pollution
+  authors: 'Labay, Adrià'
+  file: 'TR_Measuring_Pollution.pdf'
+  date: 2015-01-16
+  doi:
+  abstract: 'The objective of this research project is to create a device capable of analysing air pollution using an Arduino and some sensors to measure
+  temperature, humidity, liquefied petroleum gas, ethanol, hydrocarbon gases, carbon monoxide and carbon dioxide. The measurements are sent via a
+  Bluetooth module to an Android mobile, where they are stored and presented. It is included in the Android application capabilities like speech recognition,
+  speech synthesis and geolocation.
+  Tailpipe emissions have been compared between diesel/gasoline and new/old cars.'
