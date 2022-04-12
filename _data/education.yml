@@ -1,14 +1,14 @@
 - place_long: 'Universitat Autonoma de Barcelona'
   place_short: 'UAB'
   name: Degree in Physics
-  url: 'http://www.uab.cat'
+  url: 'https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/fisica-1216708251447.html?param1=1216102930384'
   start_date: 2015/09
   end_date: 2019/06
   description: Thesis on [Quantum Change Point Detection in Noisy Channels](https://labay11.github.io/#Quantum+Change+Point+Detection+in+Noisy+Channels).
 - place_long: Nanyang Technological University
   place_short: NTU
   name: Exchange as Part of the Degree in Physics
-  url: 'https://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Overview.aspx'
+  url: 'https://www.ntu.edu.sg/spms/about-us/physics/undergrad'
   start_date: 2018/08
   end_date: 2018/12
   description: Exchange program as part of the Degree in Physics in UAB.
