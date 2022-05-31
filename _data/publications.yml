@@ -1,3 +1,9 @@
+- title: Quantum associative memory with a single driven-dissipative non-linear oscillator
+  authors: 'Labay-Mora, Adrià and Zambrini, Roberta and Giorgi, Gian Luca'
+  file:
+  date: 2022-05-19
+  doi: 'https://doi.org/10.48550/arXiv.2205.09491'
+  abstract: 'Algorithms for associative memory typically rely on a network of many connected units. The prototypical example is the Hopfield model, whose generalizations to the quantum realm are mainly based on open quantum Ising models. We propose a realization of associative memory with a single driven-dissipative quantum oscillator exploiting its infinite degrees of freedom in phase space. The model can improve the storage capacity of discrete neuron-based systems in a large regime and we prove successful state discrimination between $n$ coherent states, which represent the stored patterns of the system. These can be tuned continuously by modifying the driving strength, constituting a modified learning rule. We show that the associative-memory capacity is inherently related to the existence of a spectral gap in the Liouvillian superoperator, which results in a large timescale separation in the dynamics corresponding to a metastable phase.'
 - title: Genetic algorithm-based optimisation of entanglement distribution to minimise hardware cost
   authors: 'Labay, Adrià'
   file: 'msc_thesis_adria_labay.pdf'
