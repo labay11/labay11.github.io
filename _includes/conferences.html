@@ -1,0 +1,30 @@
+<section class="section" id="conferences">
+
+  <h1 class="title">Conferences</h1>
+
+  {% assign pubs = (site.data.conferences | sort: "date") | reverse %}
+
+  {% for pub in pubs %}
+    {% capture icon %}
+      {% if pub.type == 'talk' %}
+        <i class="fa fa-person-chalkboard"></i>
+      {% elsif pub.type == 'poster' %}
+        <i class="fa fa-file-image"></i>
+      {% endif %}
+    {% endcapture %}
+    {% capture subtitle %}
+      <span class="icon-text">
+      <span class="icon has-text-info" title="{{ pub.type }}">
+        {{ icon }}
+      </span>
+      <i>{{ pub.name }} ({{ pub.place }})</i>
+      </span>
+    {% endcapture %}
+    {% include media.html title=pub.title
+                          subtitle=subtitle
+			                    date=pub.date
+                          end_date=pub.date
+    %}
+  {% endfor %}
+
+</section>
