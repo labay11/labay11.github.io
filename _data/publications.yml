@@ -5,19 +5,19 @@
   doi: 'https://doi.org/10.48550/arXiv.2205.09491'
   abstract: 'Algorithms for associative memory typically rely on a network of many connected units. The prototypical example is the Hopfield model, whose generalizations to the quantum realm are mainly based on open quantum Ising models. We propose a realization of associative memory with a single driven-dissipative quantum oscillator exploiting its infinite degrees of freedom in phase space. The model can improve the storage capacity of discrete neuron-based systems in a large regime and we prove successful state discrimination between $n$ coherent states, which represent the stored patterns of the system. These can be tuned continuously by modifying the driving strength, constituting a modified learning rule. We show that the associative-memory capacity is inherently related to the existence of a spectral gap in the Liouvillian superoperator, which results in a large timescale separation in the dynamics corresponding to a metastable phase.'
 - title: Genetic algorithm-based optimisation of entanglement distribution to minimise hardware cost
-  authors: 'Labay, Adrià'
+  authors: 'Labay-Mora, Adrià'
   file: 'msc_thesis_adria_labay.pdf'
   date: 2021-06-04
   doi:
   abstract: 'Distribution of high-quality entanglement over long distances is a key step for the development of a future quantum internet. Exponential photon loss related to distance in optical fibres makes it impractical to connect two nodes directly. Furthermore, the impossibility of copying general quantum states forbids using the same solutions as in classical communication. Quantum repeaters can be used to extend entanglement to longer distances using teleportation; nonetheless, straightforward application still leads to an exponential decrease in the link quality. Entanglement purification probabilistically allow us to obtain few high-quality links from many low-quality ones. Several protocols combining quantum repeaters with purification have been proposed. However, the hardware quality is still lacking. Moreover, it is unclear how an improvement over a certain hardware parameter affects the final link quality or entanglement generation rate. Analytical expressions are hard to find and usually assumptions are needed, limiting their applicability. In this work, a realistic repeater chain is modelled using NetSquid, a discrete-event based quantum network simulator. A genetic algorithm-based optimisation methodology is then applied to determine what entanglement distribution protocol allows for minimal improvement over current hardware, and what these improvements must be in order to achieve a target link quality and distribution rate. In this thesis, we aim to make the path towards scalable quantum repeaters clearer, as well as understand how entanglement purification can enable this goal. We conclude that quantum repeaters are necessary to connect distances larger than 200km. We also find that entanglement purification enables achieving target metrics with lower hardware cost when the internode distance is approximately 100km, where a balance is found between a low rate for longer separations and a too demanding hardware for shorter ones. Finally, we analyse the growth of the hardware cost with the distance showing that, with the best choice of protocols, it scales linearly. We believe that these results constitute a valuable stepping stone towards a blueprint for a pan-European quantum internet.'
 - title: A relational view of Quantum Mechanics
-  authors: 'Labay, Adrià'
+  authors: 'Labay-Mora, Adrià'
   file: 'rqm_AdriaLabay.pdf'
   doi:
   date: 2020-07-05
   abstract: 'The Copenhaguen interpretation provides a mathematical framework that has proved useful toevaluate the probabilities for future events in terms of our previous knowledge on a system. However,it is a source of controversy since any physical intuition we want to give  on  the  processes yields paradoxes like instantaneous collapse, spooky action at a distance... The goal of the relational interpretation is to solve some of them without changing the actual formalism, purely by focusing our attention to what is really the intrinsic property of Quantum Mechanics: discreteness.'
 - title: Quantum Change Point Detection in Noisy Channels
-  authors: 'Labay, Adrià'
+  authors: 'Labay-Mora, Adrià'
   file: 'TFG_AdriaLabay.pdf'
   date: 2019-06-15
   doi:
@@ -27,7 +27,7 @@ out on the states with the greatest possible probability of success. Recently, t
 we will study the case in which the states are mixed and therefore the uncertainty in the system increases. We will use both analytical and numerical techniques to find the optimal measure that
 maximises the probability of correctly identifying the point of change.'
 - title: Measuring Pollution
-  authors: 'Labay, Adrià'
+  authors: 'Labay-Mora, Adrià'
   file: 'TR_Measuring_Pollution.pdf'
   date: 2015-01-16
   doi:
