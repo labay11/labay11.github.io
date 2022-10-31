@@ -4,9 +4,12 @@
 - name: Jobs
   part: '#jobs'
   file: 'jobs.html'
-- name: Scientific Work
+- name: Publications
   part: '#publications'
   file: 'publications.html'
+- name: Conferences
+  part: '#conferences'
+  file: 'conferences.html'
 - name: Awards
   part: '#awards'
   file: 'awards.html'
