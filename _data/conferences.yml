@@ -1,20 +1,25 @@
+- name: 'Quantum Information in Spain ICE-8'
+  place: 'Santiago de Compostela, Spain'
+  date: 2023-05-29
+  type: 'poster'
+  title: 'Quantum associative memory and storage properties of a driven-dissipative nonlinear oscillator'
 - name: 'Conference on Complex Systems'
   place: 'Palma de Mallorca, Spain'
   date: 2022-10-18
   type: 'talk'
-  title: 'Quantum associative memory with a single driven-dissipative non-linear oscillator'
+  title: 'Quantum associative memory with a single driven-dissipative nonlinear oscillator'
 - name: 'Quantum characterization and control of quantum complex systems'
   place: 'Lake Como School of Advanced Studies, Italy'
   date: 2022-09-19
   type: 'poster'
-  title: 'Quantum associative memory with a single driven-dissipative non-linear oscillator'
+  title: 'Quantum associative memory with a single driven-dissipative nonlinear oscillator'
 - name: 'Quantum Matter'
   place: 'Barcelona, Catalunya'
   date: 2022-06-22
   type: 'poster'
-  title: 'Quantum associative memory with a single driven-dissipative non-linear oscillator'
+  title: 'Quantum associative memory with a single driven-dissipative nonlinear oscillator'
 - name: 'Quantum Information in Spain ICE-7'
   place: 'Granada, Spain'
   date: 2022-05-23
   type: 'poster'
-  title: 'Quantum associative memory with a single driven-dissipative non-linear oscillator'
+  title: 'Quantum associative memory with a single driven-dissipative nonlinear oscillator'
