@@ -1,5 +1,5 @@
 <article class="media" id="{{ include.title | url_encode }}">
-  <div class="media-left has-text-centered date-column">
+  <div class="media-left has-text-centered date-column is-hidden-mobile">
     {% if include.date %}
       <time datetime="{{ include.date }}">{{ include.date | date: "%d %B %Y" }}</time>
     {% else %}
@@ -26,6 +26,21 @@
         {% endif %}
       </h4>
       {% if include.subtitle %}<h6 class="subtitle is-6">{{ include.subtitle }}</h6>{% endif %}
+      <p class="is-size-6 is-hidden-desktop">
+        {% if include.date %}
+          <time datetime="{{ include.date }}">{{ include.date | date: "%d %B %Y" }}</time>
+        {% else %}
+          {% if include.end_date %}
+            <time datetime="{{ include.end_date }}">{{ include.end_date | date: "%B %Y" }}</time>
+          {% else %}
+            present
+          {% endif %}
+          <span class="icon has-text-info is-large">
+            <i class="fa fa-long-arrow-left"></i>
+          </span>
+          <time datetime="{{ include.start_date }}">{{ include.start_date | date: "%B %Y" }}</time>
+        {% endif %}
+      </p>
       {% if include.content %} {{ include.content }}{% endif %}
     </div>
   </div>
