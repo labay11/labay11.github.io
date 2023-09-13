@@ -1,3 +1,9 @@
+- title: Quantum memories for squeezed and coherent superpositions in a driven-dissipative nonlinear oscillator
+  authors: 'Labay-Mora, Adrià and Zambrini, Roberta and Giorgi, Gian Luca'
+  file:
+  date: 2023-09-12
+  doi: 'https://doi.org/10.48550/arXiv.2309.06300'
+  abstract: 'Quantum oscillators with nonlinear driving and dissipative terms have gained significant attention due to their ability to stabilize cat-states for universal quantum computation. Recently, superconducting circuits have been employed to realize such long-lived qubits stored in coherent states. We present a generalization of these oscillators, which are not limited to coherent states, in the presence of different nonlinearities in driving and dissipation, exploring different degrees. Specifically, we present an extensive analysis of the asymptotic dynamical features and of the storage of squeezed states. We demonstrate that coherent superpositions of squeezed states are achievable in the presence of a strong symmetry, thereby allowing for the storage of squeezed cat-states. In the weak symmetry regime, accounting for linear dissipation, we investigate the potential application of these nonlinear driven-dissipative resonators for quantum computing and quantum associative memory and analyze the impact of squeezing on their performance.'
 - title: Quantum associative memory with a single driven-dissipative non-linear oscillator
   authors: 'Labay-Mora, Adrià and Zambrini, Roberta and Giorgi, Gian Luca'
   file:
