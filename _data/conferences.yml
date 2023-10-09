@@ -1,3 +1,13 @@
+- name: 'XXIV Congreso de Física Estadística (FisEs 23)'
+  place: 'Pamplona, Spain'
+  date: 2023-10-25
+  type: 'poster'
+  title: 'Quantum associative memory and storage properties of a driven-dissipative nonlinear oscillator'
+- name: 'Quantum Techniques in Machine Learning'
+  place: 'CERN, Switzerland'
+  date: 2023-11-20
+  type: 'poster'
+  title: 'Quantum associative memory and storage properties of a driven-dissipative nonlinear oscillator'
 - name: 'Quantum Information in Spain ICE-8'
   place: 'Santiago de Compostela, Spain'
   date: 2023-05-29
