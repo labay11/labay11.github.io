@@ -13,7 +13,7 @@
   authors: 'Adrià Labay-Mora and Roberta Zambrini and Gian Luca Giorgi'
   file:
   date: 2023-09-12
-  doi: 'https://doi.org/10.48550/arXiv.2309.06300'
+  doi: 'https://doi.org/10.1103/PhysRevA.109.032407'
   abstract: 'Quantum oscillators with nonlinear driving and dissipative terms have gained significant attention due to their ability to stabilize cat-states for universal quantum computation. 
   Recently, superconducting circuits have been employed to realize such long-lived qubits stored in coherent states. We present a generalization of these oscillators, which are not limited to coherent states,
   in the presence of different nonlinearities in driving and dissipation, exploring different degrees. Specifically, we present an extensive analysis of the asymptotic dynamical features and of the storage 
