@@ -1,3 +1,8 @@
+- name: 'Machine Learning and Quantum Physics Workshop'
+  place: 'Obergurgl, Austria'
+  date: 2024-03-28
+  type: 'talk'
+  title: 'Associative memories in the quantum regime'
 - name: 'XXIV Congreso de Física Estadística (FisEs 23)'
   place: 'Pamplona, Spain'
   date: 2023-10-25
