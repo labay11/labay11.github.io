@@ -1,3 +1,13 @@
+- name: 'QTYR Workshop'
+  place: 'Madrid, Spain'
+  date: 2024-07-09
+  type: 'talk'
+  title: 'General framework for quantum associative memories'
+- name: 'Quantum Matter'
+  place: 'San Sebastian, Spain'
+  date: 2024-05-08
+  type: 'poster'
+  title: 'General framework for quantum associative memories'
 - name: 'Machine Learning and Quantum Physics Workshop'
   place: 'Obergurgl, Austria'
   date: 2024-03-28
