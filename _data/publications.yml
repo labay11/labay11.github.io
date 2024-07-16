@@ -1,8 +1,8 @@
 - title: Reducing hardware requirements for entanglement distribution via joint hardware-protocol optimization
   authors: 'Adrià Labay-Mora and Francisco Ferreira da Silva, Stephanie Wehner'
-  file:
+  file: 'Labay_Mora_2024_Quantum_Sci._Technol._9_045001.pdf'
   date: 2023-09-20
-  doi: 'https://doi.org/10.48550/arXiv.2309.11448'
+  doi: 'https://doi.org/10.1088/2058-9565/ad57e9'
   abstract: 'We conduct a numerical investigation of fiber-based entanglement distribution over distances of up to 1600km using a chain of processing-node quantum repeaters. 
   We determine minimal hardware requirements while simultaneously optimizing over protocols for entanglement generation and entanglement purification, as well as over strategies for entanglement swapping. 
   Notably, we discover that through an adequate choice of protocols the hardware improvement cost scales linearly with the distance covered. Our results highlight the crucial role of good protocol choices 
