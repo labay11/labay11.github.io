@@ -11,7 +11,7 @@
   requirements.'
 - title: Quantum memories for squeezed and coherent superpositions in a driven-dissipative nonlinear oscillator
   authors: 'Adrià Labay-Mora and Roberta Zambrini and Gian Luca Giorgi'
-  file:
+  file: 'PhysRevA.109.032407.pdf'
   date: 2023-09-12
   doi: 'https://doi.org/10.1103/PhysRevA.109.032407'
   abstract: 'Quantum oscillators with nonlinear driving and dissipative terms have gained significant attention due to their ability to stabilize cat-states for universal quantum computation. 
@@ -22,7 +22,7 @@
   and analyze the impact of squeezing on their performance.'
 - title: Quantum associative memory with a single driven-dissipative non-linear oscillator
   authors: 'Adrià Labay-Mora and Roberta Zambrini and Gian Luca Giorgi'
-  file:
+  file: 'PhysRevLett.130.190602.pdf'
   date: 2023-05-12
   doi: 'https://doi.org/10.1103/PhysRevLett.130.190602'
   abstract: 'Algorithms for associative memory typically rely on a network of many connected units. The prototypical example is the Hopfield model, whose generalizations to the quantum realm are 
