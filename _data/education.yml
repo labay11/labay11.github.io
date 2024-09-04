@@ -22,6 +22,13 @@
 - place_long: 'Institute for Cross-Disciplinary Physics and Complex Systems'
   place_short: 'IFISC'
   name: PhD student
-  url: 'https://ifisc.uib-csic.es'
+  url: 'https://ifisc.uib-csic.es/en/people/adria-labay/'
   description: 'Quantum Neural Networks, Quantum Associative Memory & Quantum Reservoir Computing.'
   start_date: 2021/09
+- place_long: 'École Polytechnique Fédérale de Lausanne'
+  place_short: 'EPFL'
+  name: Research stay
+  url: 'https://people.epfl.ch/adria.labaymora/?lang=en'
+  description: 'Open quantum systems, dissipative qubits, metastability'
+  start_date: 2024/09
+  end_date: 2024/12
