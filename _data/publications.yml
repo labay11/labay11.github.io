@@ -1,3 +1,9 @@
+- title: Neural networks with quantum states of light
+  authors: 'Adrià Labay-Mora, Jorge García-Beni, Gian Luca Giorgi, Miguel C. Soriano and Roberta Zambrini'
+  file: ''
+  date: 2024-12-24
+  doi: 'https://doi.org/10.1098/rsta.2023.0346'
+  abstract: 'Quantum optical networks are instrumental in addressing the fundamental questions and enable applications ranging from communication to computation and, more recently, machine learning (ML). In particular, photonic artificial neural networks (ANNs) offer the opportunity to exploit the advantages of both classical and quantum optics. Photonic neuro-inspired computation and ML have been successfully demonstrated in classical settings, while quantum optical networks have triggered breakthrough applications such as teleportation, quantum key distribution and quantum computing. We present a perspective on the state of the art in quantum optical ML and the potential advantages of ANNs in circuit designs and beyond, in more general, analogue settings characterized by recurrent and coherent complex interactions. We consider two analogue neuro-inspired applications, namely quantum reservoir computing and quantum associative memories, and discuss the enhanced capabilities offered by quantum substrates, highlighting the specific role of light squeezing in this context.'
 - title: Theoretical framework for quantum associative memories
   authors: 'Adrià Labay-Mora, Eliana Fiorelli, Roberta Zambrini and Gian Luca Giorgi'
   file: ''
