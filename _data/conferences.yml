@@ -1,3 +1,8 @@
+- name: 'APS March Meeting'
+  place: 'Anaheim, USA'
+  date: 2025-03-20
+  type: 'talk'
+  title: 'Theoretical framework for quantum associative memories'
 - name: 'QTYR Workshop'
   place: 'Madrid, Spain'
   date: 2024-07-09
