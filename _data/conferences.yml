@@ -1,3 +1,8 @@
+- name: 'Quantum Information in Spain ICE-10'
+  place: 'Valencia, Spain'
+  date: 2025-10-20
+  type: 'talk'
+  title: 'Chiral cat code: Enhanced error correction induced by higher-order nonlinearities'
 - name: 'APS March Meeting'
   place: 'Anaheim, USA'
   date: 2025-03-20
